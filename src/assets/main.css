@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body,#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: hsl(210, 29%, 24%);
+  height: 100%;
+}
+::-webkit-scrollbar {
+  width: 6Px;
+  height: 8Px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 5Px;
+  background-color: #eee;
+}
+  
+::-webkit-scrollbar-thumb {
+  border-radius: 5Px;
+  background:-webkit-linear-gradient(pink,skyblue);
+}
+    

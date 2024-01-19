@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "#/*": ["./types/*"],
+    },
+    "types": [
+      "lodash",
+      // "element-plus/global", 
+      // "pinia-plugin-persist","unplugin-icons/resolver",
+      // "unplugin-vue-define-options/macros-global",
+      // "echarts", "lodash", "web-bluetooth", "naive-ui/volar"
+    ]
+  },
+  "include": [
+    "vite.config.ts",
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.vue",
+    "types/*.d.ts",
+    "types/*.ts",
+    "utils/*.ts",
+    "utils/*.d.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}
