@@ -1,4 +1,4 @@
-<template>
+<template> 
     <div v-resize-ob="handleSize" class="div">
         ddddd
     </div>
